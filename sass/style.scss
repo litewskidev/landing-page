@@ -16,12 +16,24 @@ body {
     margin: 0 auto;
 }
 
+.main {
+    height: 100vh;
+}
+
+.welcome-page {
+    height: 50vh;
+}
+
 .navigation {
     display: flex;
 }
 
 .services-icons {
     display: flex;
+}
+
+.portfolio {
+    height: 100vh;
 }
 
 .portfolio-grid {
