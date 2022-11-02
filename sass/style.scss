@@ -35,11 +35,7 @@ p {
     font-family: $font-header;
 }
 
-/* Welcome */
-
-.main {
-    height: 100vh;
-}
+/* Navigation */
 
 .welcome-page {
     height: 50vh;
@@ -53,13 +49,38 @@ p {
 
 .navigation {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .nav-title {
     font-family: $font-logo;
+    margin-left: 100px;
+    color: rgb(209, 193, 50);
+    font-size: 60px;
+}
+
+.nav-list a {
+    color: white;
+    margin-left: 20px;
+}
+
+/* Splash*/
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 /* Services */
+
+.services-page {
+    height: 45vh;
+}
 
 .services-icons {
     display: flex;
@@ -67,18 +88,20 @@ p {
 
 .icons-item {
     text-align: center;
+    margin: 0 8px;
 }
 
 /* Portfolio */
 
 .portfolio {
-    height: 100vh;
+    height: 95vh;
     background-color: rgb(243, 242, 242);
 }
 
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolio-image img {
@@ -94,8 +117,21 @@ p {
 
 /* Footer */
 
+.footer {
+    padding: 40px 0;
+}
+
+.copyright {
+    margin-left: 80px;
+}
+
+.social {
+    margin-left: 70px;
+}
+
 .footer .container {
     display: flex;
+    align-items: center;
 }
 
 .social ul {
