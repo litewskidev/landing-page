@@ -21,7 +21,7 @@ p {
     font-family: $font-text;
     font-weight: 100;
     font-size: 14px;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
 }
 
 h3 {
@@ -31,6 +31,7 @@ h3 {
 h4 {
     margin-bottom: 0;
     font-size: 18px;
+    font-weight: 900;
 }
 
 .container {
@@ -53,10 +54,6 @@ h4 {
     margin-bottom: 100px;
 }
 
-.portfolio-description p {
-    font-style: italic;
-}
-
 button {
     background-color: rgb(247, 210, 1);
     border: none;
@@ -66,16 +63,6 @@ button {
     color: white;
     font-size: 20px;
     letter-spacing: 1px;
-}
-
-.icons-item i {
-    background-color: rgb(247, 210, 1);
-    font-size: 40px;
-    padding: 20px;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    margin-bottom: 10px;
 }
 
 /* Navigation */
@@ -148,6 +135,16 @@ button {
     margin: 0 8px;
 }
 
+.icons-item i {
+    background-color: rgba(250, 226, 89, 0.781);
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
 /* Portfolio */
 
 .portfolio {
@@ -162,18 +159,25 @@ button {
 }
 
 .portfolio-image img {
-    height: 200px;
+    height: 290px;
+    width: 280px;
+    object-fit: cover;
 }
 
 .portfolio-item {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .portfolio h3 {
-    padding-top: 60px;
+    padding-top: 40px;
+}
+
+.portfolio-description p {
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 /* Footer */
@@ -187,7 +191,7 @@ button {
 }
 
 .social {
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 .footer .container {
@@ -195,13 +199,18 @@ button {
     align-items: center;
 }
 
+.footer p {
+    margin: 0;
+}
+
 .social ul {
     list-style: none;
     display: flex;
+    margin: 0;
 }
 
 .social i {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0 5px;
     color: #000;
 }
