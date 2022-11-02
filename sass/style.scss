@@ -17,6 +17,10 @@ body {
     font-family: $font-text;
 }
 
+p {
+    font-family: $font-text;
+}
+
 .container {
     max-width: 1140px;
     padding: 0 20px;
@@ -97,4 +101,10 @@ body {
 .social ul {
     list-style: none;
     display: flex;
+}
+
+.social i {
+    font-size: 30px;
+    margin: 0 5px;
+    color: #000;
 }
