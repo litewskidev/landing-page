@@ -75,6 +75,7 @@ button {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    padding-bottom: 150px;
 }
 
 .navigation {
@@ -121,6 +122,10 @@ button {
 
 /* Services */
 
+.services-page {
+    padding-bottom: 80px;
+}
+
 .services-icons {
     display: flex;
     margin-top: 0;
@@ -151,6 +156,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .portfolio-image img {
@@ -168,6 +174,8 @@ button {
 
 .portfolio h3 {
     padding-top: 40px;
+    margin: 0;
+
 }
 
 .portfolio-description p {
