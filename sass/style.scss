@@ -1,3 +1,9 @@
+/* Variables */
+
+$font-header: 'Oswald', sans-serif;
+$font-text: 'Roboto Serif', serif;
+$font-logo: 'Yesteryear', cursive;
+
 /* Global */
 
 *, *::before, *::after {
@@ -8,6 +14,7 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
+    font-family: $font-text;
 }
 
 .container {
@@ -21,6 +28,7 @@ body {
     margin-top: 0;
     padding-top: 100px;
     margin-bottom: 80px;
+    font-family: $font-header;
 }
 
 /* Welcome */
@@ -41,6 +49,10 @@ body {
 
 .navigation {
     display: flex;
+}
+
+.nav-title {
+    font-family: $font-logo;
 }
 
 /* Services */
