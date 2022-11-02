@@ -16,24 +16,48 @@ body {
     margin: 0 auto;
 }
 
+.page-title {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+
+/* Welcome */
+
 .main {
     height: 100vh;
 }
 
 .welcome-page {
     height: 50vh;
+    background: url(../images/main.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .navigation {
     display: flex;
 }
 
+/* Services */
+
 .services-icons {
     display: flex;
 }
 
+.icons-item {
+    text-align: center;
+}
+
+/* Portfolio */
+
 .portfolio {
     height: 100vh;
+    background-color: rgb(243, 242, 242);
 }
 
 .portfolio-grid {
@@ -43,8 +67,16 @@ body {
 
 .portfolio-image img {
     height: 200px;
-    margin-right: 20px;
 }
+
+.portfolio-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Footer */
 
 .footer .container {
     display: flex;
@@ -54,5 +86,3 @@ body {
     list-style: none;
     display: flex;
 }
-/* Navigation */
-
